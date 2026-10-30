@@ -1,6 +1,7 @@
 pandas>=2.0
 numpy>=1.26
-# added when Bot A is built:
-# anthropic
-# streamlit
-# python-dotenv
+# Bot A
+anthropic
+streamlit
+python-dotenv
+pytest

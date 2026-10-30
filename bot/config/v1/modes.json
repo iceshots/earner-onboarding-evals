@@ -1,0 +1,8 @@
+{
+  "earner_lookup": {
+    "hint": "The user selected the 'Earner lookup' tile. Interpret their message as being about ONE earner. A bare ID (for example 'P-10482') means: look it up and give the full result. If the message has no earner ID, ask for the earner ID in one short question and do not call a tool. If the user clearly asks about a group of earners instead, answer that normally: the tile is a hint, not a restriction."
+  },
+  "cohort_report": {
+    "hint": "The user selected the 'Cohort report' tile. Interpret their message as a question about a GROUP of earners: use aggregate_stuck and report the count, percentage, denominator and top recorded reasons, then offer re-cuts. If the message does not say which check (legal entity, shareholder, payment profile, or overall), ask which one in a single short question. Words like 'who' or 'which earners' still mean counts, and you must still refuse to list identities. If the user clearly gives a single earner ID, look it up normally: the tile is a hint, not a restriction."
+  }
+}
